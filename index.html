@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix</title>
+
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/style-queries.css" />
+
+    <link
+      href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="main-nav">
+        <img
+          src="img/580b57fcd9996e24bc43c529.png"
+          alt="netflix logo"
+          class="logo"
+        />
+        <div class="main-nav-link cta-container">
+          <select
+            class="nav-btn display"
+            id="language"
+            name="language"
+            required
+          >
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">french</option>
+          </select>
+
+          <div class="sign-in-button display">
+            <a href="signup.html">Sign in</a>
+          </div>
+
+          <div class="icons menu-icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              stroke-width="1.5"
+              stroke="currentColor"
+              class="w-6 h-6"
+            >
+              <path
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+              />
+            </svg>
+          </div>
+        </div>
+      </nav>
+
+      <div class="header-content">
+        <h1>Unlimited movies, TV shows, and more</h1>
+        <h3>Watch anywhere. Cancel anytime.</h3>
+        <p>
+          Ready to watch? Enter your email to create or restart your membership
+        </p>
+
+        <form class="email-signup">
+          <input class="email" placeholder="Email-address" required />
+          <button type="submit">
+            Get Started
+            <ion-icon class="icons" name="arrow-dropright"></ion-icon>
+          </button>
+        </form>
+      </div>
+    </header>
+
+    <main>
+      <section class="border">
+        <div class="features row grid--2--cols grid-center-v container">
+          <div class="text-col">
+            <h2 class="heading-tertiary">Enjoy on your TV</h2>
+            <p class="text-description">
+              Watch on Smart TVs, Playstation, Xbox, Chromecast, Apple TV,
+              Blu-ray players, and more.
+            </p>
+          </div>
+          <div class="img-col">
+            <img class="col-img" src="img/tv.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="border">
+        <div class="features row grid--2--cols grid-center-v container">
+          <div class="img-col">
+            <img class="col-img" src="img/mobile-0819.jpeg" alt="" />
+          </div>
+          <div class="text-col">
+            <h2 class="heading-tertiary">
+              Download your shows to watch offline
+            </h2>
+            <p class="text-description">
+              Save your favorites easily and always have something to watch.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="border">
+        <div class="features row grid--2--cols grid-center-v container">
+          <div class="text-col">
+            <h2 class="heading-tertiary">Watch Everywhere.</h2>
+            <p class="text-description">
+              Stream unlimited movies and TV shows on your phone, tablet,
+              laptop, and TV.
+            </p>
+          </div>
+          <div class="img-col">
+            <img class="col-img" src="img/device-pile.png" alt="" />
+          </div>
+        </div>
+      </section>
+
+      <section class="border">
+        <div class="features row grid--2--cols grid-center-v container">
+          <div class="img-col">
+            <img class="col-img" src="img/kids.png" alt="" />
+          </div>
+          <div class="text-col">
+            <h2 class="heading-tertiary">Create profiles for kids</h2>
+            <p class="text-description">
+              Send kids on adventures with their favorite characters in a space
+              made just for them—free with your membership.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="accordian">
+        <div class="container">
+          <div class="accordian-text">
+            <h3>Frequently Asked Questions</h3>
+          </div>
+
+          <div class="accordian-questions">
+            <p class="accordian-answer">What is Netflix ?</p>
+            <ion-icon class="accordian-icon" name="add"></ion-icon>
+          </div>
+          <div class="accordian-questions">
+            <p class="accordian-answer">How much does netflix cost ?</p>
+            <ion-icon class="accordian-icon" name="add"></ion-icon>
+          </div>
+          <div class="accordian-questions">
+            <p class="accordian-answer">Where can I watch ?</p>
+            <ion-icon class="accordian-icon" name="add"></ion-icon>
+          </div>
+          <div class="accordian-questions">
+            <p class="accordian-answer">How do i cancle ?</p>
+            <ion-icon class="accordian-icon" name="add"></ion-icon>
+          </div>
+          <div class="accordian-questions">
+            <p class="accordian-answer">Where can i watch on netflix ?</p>
+            <ion-icon class="accordian-icon" name="add"></ion-icon>
+          </div>
+          <div class="accordian-questions">
+            <p class="accordian-answer">Is netflix good for kids ?</p>
+            <ion-icon class="accordian-icon" name="add"></ion-icon>
+          </div>
+
+          <div class="accordian-form">
+            <p>
+              Ready to watch? Enter your email to create or restart your
+              membership
+            </p>
+            <form class="email-signup">
+              <input type="email" placeholder="Email-address" required />
+              <button type="submit">
+                Get Started
+                <ion-icon class="icons" name="arrow-dropright"></ion-icon>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container">
+      <div class="footer-header">
+        <a href="#" class="footer-heading">Questions? Contact us.</a>
+      </div>
+
+      <div class="grid grid--4--cols">
+        <nav class="footer-nav">
+          <ul>
+            <li><a class="footer-links" href="#">FAQ</a></li>
+            <li><a class="footer-links" href="#">Investor relation</a></li>
+            <li><a class="footer-links" href="#">Privacy</a></li>
+            <li><a class="footer-links" href="#">Speed test</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav">
+          <ul>
+            <li><a class="footer-links" href="#">Help Center</a></li>
+            <li><a class="footer-links" href="#">Jobs</a></li>
+            <li><a class="footer-links" href="#">Cookie Preferences</a></li>
+            <li><a class="footer-links" href="#">Legal Notices</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav">
+          <ul>
+            <li><a class="footer-links" href="#">Accounts</a></li>
+            <li><a class="footer-links" href="#">Ways to Watch</a></li>
+            <li><a class="footer-links" href="#">Corporate Information</a></li>
+            <li><a class="footer-links" href="#">Only on Netflix</a></li>
+          </ul>
+        </nav>
+        <nav class="footer-nav">
+          <ul>
+            <li><a class="footer-links" href="#">Media Center</a></li>
+            <li><a class="footer-links" href="#">Terms of Use</a></li>
+            <li><a class="footer-links" href="#">Contact Us</a></li>
+          </ul>
+        </nav>
+      </div>
+      <select
+        class="nav-btn margin-bottom"
+        id="language"
+        name="language"
+        required
+      >
+        <option value="english">English</option>
+        <option value="spanish">Spanish</option>
+        <option value="french">french</option>
+      </select>
+    </footer>
+  </body>
+</html>

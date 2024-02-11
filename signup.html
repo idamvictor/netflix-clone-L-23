@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Netflix Sign-Up</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <link rel="stylesheet" href="css/signup-queries.css" />
+  </head>
+  <body>
+    <header class="signup-page">
+      <nav>
+        <a href="index.html">
+          <img
+            src="img/580b57fcd9996e24bc43c529.png"
+            alt="netflix logo"
+            class="netflix-logo"
+          />
+        </a>
+      </nav>
+
+      <section class="signup">
+        <div class="signup-box">
+          <h1>Sign in</h1>
+          <form class="cta-form" name="sign-up">
+            <div>
+              <input
+                class="signup-input"
+                id="email"
+                type="email"
+                name="email"
+                placeholder="Email or Phone number"
+                required
+              />
+            </div>
+            <div>
+              <input
+                class="signup-input"
+                type="password"
+                placeholder="Password"
+              />
+            </div>
+
+            <div>
+              <a href="profile.html" class="signup-button">Sign Up</a>
+            </div>
+            <div>
+              <a class="fist-link" href="#">Forgot password?</a>
+            </div>
+
+            <section class="checkbox-section">
+              <div class="checkbox-div">
+                <input class="check-input" type="checkbox" />
+                <p class="checkinput-p">Remember me</p>
+              </div>
+              <div class="checkbox-div">
+                <p class="checkinput-p2">New to Netflix?</p>
+                <a class="second-link" href="#">Sign up now.</a>
+              </div>
+              <div class="checkbox-p">
+                <p>
+                  This page is protected by Google reCAPTCHA to ensure you're
+                  not a bot. <a href="#">learn more</a>
+                </p>
+              </div>
+            </section>
+          </form>
+        </div>
+      </section>
+
+      <section class="header-footer">
+        <div class="container">
+          <div class="footer-header">
+            <a href="#" class="footer-heading">Questions? Contact us.</a>
+          </div>
+
+          <div class="grid grid--4--cols">
+            <nav class="footer-nav">
+              <ul>
+                <li><a class="footer-links" href="#">FAQ</a></li>
+                <li>
+                  <a class="footer-links" href="#">Cookie Preferences</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer-nav">
+              <ul>
+                <li><a class="footer-links" href="#">Help Center</a></li>
+
+                <li>
+                  <a class="footer-links" href="#">Corporate Information</a>
+                </li>
+              </ul>
+            </nav>
+            <nav class="footer-nav">
+              <ul>
+                <li><a class="footer-links" href="#">Terms of Use</a></li>
+              </ul>
+            </nav>
+            <nav class="footer-nav">
+              <ul>
+                <li><a class="footer-links" href="#">Privacy</a></li>
+              </ul>
+            </nav>
+          </div>
+          <select
+            class="nav-btn margin-bottom"
+            id="language"
+            name="language"
+            required
+          >
+            <option value="english">English</option>
+            <option value="spanish">Spanish</option>
+            <option value="french">french</option>
+          </select>
+        </div>
+      </section>
+    </header>
+  </body>
+</html>
